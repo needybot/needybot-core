@@ -1,0 +1,41 @@
+<launch>
+  <!--
+      Needybot Unit Test Run File
+      ===========================
+      This is essentially a launch file that is made to run with rostest.
+      Add in your node- and code-level unit test calls in here, following
+      the patterns below.
+
+      More information can be found at http://wiki.ros.org/rostest.
+
+      Node-Level Tests
+      =====================================================================
+      If you are running a node-level unit test, you would include the node
+      in this launch file, above the call for the unit tests.
+
+      This then fires up the node, and runs the tests.
+
+      **Example:**
+      <node pkg="needybot" type="some_node_we_have.py" name="some_node_we_have" />
+      <test test-name="test_some_node" pkg="needybot_test" type="test_some_node.py" />
+
+      Code-Level Tests
+      =====================================================================
+      If you are running a code-level unit test, you can just add the file
+      in as a test declaration, which will simply run the test file.
+
+      **Example:**
+      <test test-name="test_some_node" pkg="needybot_test" type="test_some_node.py" />
+  -->
+
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+
+  <!--<include file="$(find needybot)/support/launch/includes/fake_needybot.xml" />-->
+
+  <test test-name="test_task_sever" pkg="needybot" type="test_task_server.py"/>
+  <test test-name="test_task" pkg="needybot" type="test_task.py"/>
+  <test test-name="test_ui" pkg="needybot" type="test_ui.py"/>
+  <test test-name="test_needybot_blackboard" pkg="needybot" type="test_needybot_blackboard.py"/>
+  <!-- end test defs -->
+
+</launch>                     

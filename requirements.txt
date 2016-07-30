@@ -1,0 +1,5 @@
+enum34
+requests==2.7.0
+sh
+ws4py==0.3.4
+mock==2.0.0

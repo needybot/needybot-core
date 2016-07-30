@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<package>
+  <name>needybot</name>
+  <version>0.1.0</version>
+  <description>The core Needybot ROS package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag --> 
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="needybot@wk.com">Needybot</maintainer>
+
+  <license>Apache 2</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <url type="website">http://needybot.io</url>
+
+
+  <!-- Author tags are optional, mutiple are allowed, one per tag -->
+  <!-- Authors do not have to be maintianers, but could be -->
+  <!-- Example: -->
+  <author email="needybot@wk.com">Needybot</author>
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use run_depend for packages you need at runtime: -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>kobuki_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>needybot_msgs</build_depend>
+  <build_depend>needybot_srvs</build_depend>
+  <build_depend>sensor_messages</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>pi_trees_ros</build_depend>
+  <build_depend>pi_trees_lib</build_depend>
+
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>kobuki_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>needybot_msgs</run_depend>
+  <run_depend>needybot_srvs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>camera_info_manager_py</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>pi_trees_ros</run_depend>
+  <run_depend>pi_trees_lib</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+
+  <!-- Other tools can request additional information be placed here -->
+</package>
