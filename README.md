@@ -1,4 +1,4 @@
-# Needybot 
+# Needybot Core
 Core Needybot ROS package.
 
 ## Quick Start - Installing ROS
