@@ -6,7 +6,7 @@ Core Needybot ROS package.
 *Use Ubuntu.* See [this note](https://github.com/wieden-kennedy/needybot-ros/wiki/Building-a-Needybot-Instance#note-on-os-version)
 on the version of Ubuntu to use.
 If you need to install ROS on your system, or are rebuilding, use
-the bootstrap script found [here](https://github.com/needybot/needybot-ros-bootstrap).
+the bootstrap script found [here](https://github.com/needybot/needybot-ros-bootstrapper).
 
 This will take care of adding the correct ROS source repository to your apt-get
 sources list, install all dependencies, ROS, and add the correct source files
@@ -23,8 +23,8 @@ Next, make sure to re-source you .bashrc as new ENV vars are added on a fresh in
 
     $ source ~/.bashrc 
 
-###Running Your Needybot
-Were working on providing a thorough set of [tutorials](https://github.com/needybot/needybot-ros-bootstrap). We're working on guides to go along with them and actively building more tutorials. For the time being feel free to jump into the tutrials we've provided, read the code, and start mucking around.
+### TBD
+We're actively working to provide a thorough set of [tutorials](https://github.com/needybot/needybot-tutorials). We're also working on tutorial guides, a wiki, assembly instructions and releasing many other packages including but not limited to facial recognition, thermal tracking and autonomous navigation. For the time being feel free to jump into the tutorials we've provided, read the code, and start mucking around.
 
 --
 
